@@ -14,7 +14,7 @@ const clienteRoutes = require('./routes/clienteRoutes');
 
 app.use('/clientes', clienteRoutes);
 
-app.get('/', (req, res) => {
+app.get('/', (req,res) => {
     res.json("Wendy Odilon API!!")
     return 
 });
